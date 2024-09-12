@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.bank.com/soap"
+           xmlns="http://www.bank.com/soap"
+           elementFormDefault="qualified">
+
+    <xs:element name="GetBalanceRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="accountId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetBalanceResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="balance" type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
