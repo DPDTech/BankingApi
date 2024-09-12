@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping requestMappingHandlerMapping(org.springframework.web.accept.ContentNegotiationManager, org.springframework.format.support.FormattingConversionService, org.springframework.web.servlet.resource.ResourceUrlProvider)'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
